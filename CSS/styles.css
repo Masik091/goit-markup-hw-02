@@ -28,6 +28,8 @@
       list-style: none;
     }
 
+.header-nav{}
+
 .model-open-btn {
 }
 button {
@@ -37,6 +39,8 @@ button {
 .link {
   text-decoration: none;
 }
+.focus:hover
+.focus:focus{color: #2E2F42;}
 
 .menu-link {
   text-decoration: none;
