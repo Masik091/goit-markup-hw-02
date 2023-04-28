@@ -32,20 +32,22 @@ button {
 .page-navigation {
 }
 .page-logo {
+text-decoration: none
   width: 44px;
   height: 21px;
 
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   /* identical to box height, or 117% */
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* IRIS */
-
   color: #4d5ae5;
+}
+.logos{
+    color: #2e2f42 ;
 }
