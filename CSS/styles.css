@@ -1,17 +1,27 @@
-.list {
+.menu {
   list-style: none;
+}
+.menu-item {
 }
 
 .list {
   text-decoration: none;
 }
-.link {
+.menu-link {
   text-decoration: none;
+}
+.header-contact-tel {
+}
+.header-contact-mail {
+}
+.model-open-btn {
 }
 button {
   cursor: pointer;
 }
 .page-header {
 }
-.navigation {
+.page-navigation {
+}
+.page-logo {
 }
