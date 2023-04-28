@@ -29,7 +29,8 @@ button {
 }
 .page-header {
 }
-.page-navigation {
+.list {
+    list-style: none;
 }
 .page-logo {
 text-decoration: none
