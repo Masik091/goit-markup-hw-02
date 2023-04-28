@@ -32,6 +32,9 @@ button {
 .list {
     list-style: none;
 }
+.menu-link {
+    text-decoration: none
+}
 .page-logo {
 text-decoration: none
   width: 44px;
