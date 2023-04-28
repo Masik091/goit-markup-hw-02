@@ -1,4 +1,10 @@
-ul,
-ol {
+.list {
   list-style: none;
+}
+
+.list {
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
 }
