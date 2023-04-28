@@ -5,8 +5,7 @@
 .menu {
   list-style: none;
 }
-.menu-item {
-}
+
 
 .list {
   text-decoration: none;
@@ -22,19 +21,18 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-contact-tel {
-}
-.header-contact-mail {
-}
+
+.page-header {
+    background: #FFFFFF;
+    }
+    .list {
+      list-style: none;
+    }
+
 .model-open-btn {
 }
 button {
   cursor: pointer;
-}
-.page-header {
-}
-.list {
-  list-style: none;
 }
 
 .link {
