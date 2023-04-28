@@ -1,9 +1,7 @@
-:root{
---primary-text-color: navy-blue;
---secondary-text-color: slade;
+:root {
+  --primary-text-color: navy-blue;
+  --secondary-text-color: slade;
 }
-
-
 .menu {
   list-style: none;
 }
@@ -36,13 +34,17 @@ button {
 .page-header {
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
 .menu-link {
-    text-decoration: none
+  text-decoration: none;
 }
 .page-logo {
-text-decoration: none
   width: 44px;
   height: 21px;
   font-family: "Raleway", sans-serif;
@@ -55,13 +57,13 @@ text-decoration: none
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: ##4d5ae5 ;
+  color: #4d5ae5;
 }
-.logos{
-    color: #2e2f42 ;
+.logos {
+  color: #2e2f42;
 }
-body{
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
