@@ -1,13 +1,13 @@
 :root {
-    --background-color: #ffffff;
-    --logo-color: #4d5ae5;
-  }
-  
- body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-  }
+  --background-color: #ffffff;
+  --logo-color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 
 .menu {
   list-style: none;
@@ -16,31 +16,40 @@
   list-style: none;
 }
 .menu-link {
-text-decoration: none;
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
+.menu-link :hover .menu-link :focus {
+  color: #404bbf;
+}
 .page-header {
-    background: #FFFFFF;
-    }
+  background: #ffffff;
+}
 
-    .page-header-navigation{
-        list-style: none
-      }
+.page-header-navigation {
+  list-style: none;
+}
 
-    .list {
-      list-style: none;
-    }
-    .contacts:hover,
-    .contacts:focus {
-      color: #404bbf;
-    }
+.list {
+  list-style: none;
+}
+.contacts: {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
 button {
   cursor: pointer;
 }
@@ -48,8 +57,6 @@ button {
 .link {
   text-decoration: none;
 }
-.focus:hover
-.focus:focus{color: #2E2F42;}
 
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -66,7 +73,6 @@ button {
   color: #2e2f42;
 }
 
-.footer{
-    background-color: #2e2f42;
+.footer {
+  background-color: #2e2f42;
 }
-
