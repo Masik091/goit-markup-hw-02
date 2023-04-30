@@ -26,9 +26,6 @@ text-decoration: none;
   color: #2e2f42;
 }
 
-.menu-item{
-
-}
 .page-header {
     background: #FFFFFF;
     }
@@ -40,7 +37,10 @@ text-decoration: none;
     .list {
       list-style: none;
     }
-
+    .contacts:hover,
+    .contacts:focus {
+      color: #404bbf;
+    }
 button {
   cursor: pointer;
 }
