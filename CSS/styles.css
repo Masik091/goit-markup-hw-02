@@ -2,6 +2,7 @@
   --background-color: #ffffff;
   --page-logo-color: #4d5ae5;
   --first-paragraf-color: #434455;
+  --section-one-color: #2e2f42;
 }
 
 body {
@@ -75,7 +76,7 @@ button {
 }
 
 .section-one {
-  background-color: #2e2f42;
+  background-color: var(--section-one-color);
 }
 .title-one {
   font-weight: 700;
