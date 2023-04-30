@@ -1,17 +1,22 @@
 :root {
   --primary-text-color: navy-blue;
+  --secondary-text-color: slade;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+  }
+
 .menu {
   list-style: none;
 }
-
-
 .list {
-  text-decoration: none;
+  list-style: none
 }
 .menu-link {
-  width: 48px;
-  height: 24px;
+text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -21,17 +26,17 @@
   color: #2e2f42;
 }
 
+.menu-item{
+
+}
 .page-header {
     background: #FFFFFF;
     }
+
     .list {
       list-style: none;
     }
 
-.header-nav{}
-
-.model-open-btn {
-}
 button {
   cursor: pointer;
 }
@@ -42,19 +47,12 @@ button {
 .focus:hover
 .focus:focus{color: #2E2F42;}
 
-.menu-link {
-  text-decoration: none;
-}
 .page-logo {
-  width: 44px;
-  height: 21px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  /* identical to box height, or 117% */
-  display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -63,11 +61,7 @@ button {
 .logos {
   color: #2e2f42;
 }
-body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
+
 .footer{
     background-color: #2e2f42;
 }
