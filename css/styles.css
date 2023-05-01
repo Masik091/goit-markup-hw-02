@@ -84,6 +84,9 @@ body {
 }
 
 /* Section-1 */
+.section-one {
+  background-color: var(--sections-color);
+}
 
 .section-one :hover,
 .section-one :focus {
@@ -177,4 +180,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--first-paragraf-color);
   padding: 0;
+}
+.footer-color {
+  color: #f4f4fd;
 }
