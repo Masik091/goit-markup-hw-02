@@ -2,7 +2,7 @@
   --background-color: #ffffff;
   --page-logo-color: #4d5ae5;
   --first-paragraf-color: #434455;
-  --section-one-color: #2e2f42;
+  --sections-color: #2e2f42;
   --contact-color: #434455;
 }
 
@@ -85,7 +85,7 @@ body {
 
 .section-one :hover,
 .section-one :focus {
-  background-color: var(--section-one-color);
+  background-color: var(--sections-color);
 }
 
 .title-one {
@@ -95,6 +95,16 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+/* Section-two */
+.hidden-title {
+}
+.section-strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--sections-color);
 }
 /* Button */
 
