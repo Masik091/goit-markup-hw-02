@@ -194,8 +194,5 @@ button {
 .button-portfolio :hover,
 .button-portfolio :focus {
   color: #ffffff;
-}
-.button-portfolio :hover,
-.button-portfolio :focus {
   background-color: #404bbf;
 }
