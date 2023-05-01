@@ -81,9 +81,13 @@ body {
   color: #2e2f42;
 }
 
-.section-one {
+/* Section-one */
+
+.section-one :hover,
+.section-one :focus {
   background-color: var(--section-one-color);
 }
+
 .title-one {
   font-weight: 700;
   font-size: 56px;
