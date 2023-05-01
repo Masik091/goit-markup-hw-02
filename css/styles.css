@@ -6,6 +6,8 @@
   --contact-color: #434455;
   --section-four-back-ground-color: #f4f4fd;
   --footer-color: #2e2f42;
+  --portfolio-button: #4d5ae5;
+  --portfolio-background-button: #f4f4fd;
 }
 
 body {
@@ -177,4 +179,20 @@ button {
 }
 .footer-color {
   color: #f4f4fd;
+}
+
+/* Portfolio */
+.button-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--portfolio-button);
+  background-color: var(--portfolio-background-button);
+}
+.button-portfolio :hover,
+.button-portfolio :focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
