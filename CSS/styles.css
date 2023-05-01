@@ -113,4 +113,5 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-paragraf-color);
+  padding: 0;
 }
