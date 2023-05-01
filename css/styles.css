@@ -48,19 +48,20 @@ body {
 .menu-contacts {
   font-style: normal;
 }
-.contacts: {
+.contacts: .contacts {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--contact-color);
+  color: #434455;
 }
+
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
-}
-button {
-  cursor: pointer;
 }
 
 .link {
@@ -94,6 +95,10 @@ button {
   color: #ffffff;
 }
 /* Button */
+
+button {
+  cursor: pointer;
+}
 .button-one {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
