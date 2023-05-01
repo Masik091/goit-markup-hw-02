@@ -4,6 +4,7 @@
   --first-paragraf-color: #434455;
   --sections-color: #2e2f42;
   --contact-color: #434455;
+  --section-four-back-ground-color: #f4f4fd;
 }
 
 body {
@@ -81,7 +82,7 @@ body {
   color: #2e2f42;
 }
 
-/* Section-one */
+/* Section-1 */
 
 .section-one :hover,
 .section-one :focus {
@@ -96,7 +97,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-/* Section-two */
+/* Section-2 */
 .hidden-title {
 }
 .title-two {
@@ -114,6 +115,29 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--sections-color);
+}
+
+/* Section-4 */
+.section-four-background-color {
+  background-color: var(--section-four-back-ground-color);
+}
+.title-four {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--sections-color);
+}
+.company-employees {
+  background-color: #ffffff;
+}
+.employees {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--sections-color);
 }
 /* Button */
