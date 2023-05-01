@@ -48,15 +48,13 @@ body {
 .menu-contacts {
   font-style: normal;
 }
-.contacts: .contacts {
-  display: block;
-  margin-top: 24px;
-  margin-bottom: 24px;
+
+.contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--contact-color);
 }
 
 .contacts:hover,
