@@ -93,6 +93,7 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+/* Button */
 .button-one {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -104,7 +105,8 @@ button {
   background: #4d5ae5;
   color: #ffffff;
 }
-.button-one :hover {
+.button-one :hover,
+.button-one :focus {
   background-color: #404bbf;
 }
 .button-one :focus {
