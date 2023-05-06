@@ -22,17 +22,15 @@ body {
   align-items: center;
 }
 .container {
-  width: 1128px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 141px;
-  padding-right: 141px;
+  width: 1158px;
+  margin: auto;
+  padding: 0 15px;
 }
 
 .menu {
   list-style: none;
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .list {
   list-style: none;
@@ -77,21 +75,27 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+.menu-item {
+  padding: 24px 0 24px;
+}
 
 .page-header-navigation {
   list-style: none;
   display: flex;
   align-items: center;
   column-gap: 76px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .list {
   list-style: none;
   display: flex;
+  gap: 40px;
 }
 
 /* Address */
 .menu-contacts {
+  display: flex;
   font-style: normal;
 }
 
@@ -119,11 +123,14 @@ img {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
+  display: inline-block;
   line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--page-logo-color);
+  margin-right: 76px;
+  margin-bottom: 16px;
 }
 .logos {
   color: #2e2f42;
@@ -132,10 +139,10 @@ img {
 /* Section-1 */
 .section-one {
   background-color: var(--sections-color);
-  padding: 188px 472px 292px;
+  padding: 188px 0;
 }
 .sections {
-  margin-top: 120px;
+  padding: 120px 0;
 }
 
 .section-one :hover,
@@ -170,6 +177,7 @@ img {
   display: flex;
   padding: 0;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 /* Section-3 */
@@ -181,6 +189,12 @@ img {
   text-transform: capitalize;
   color: var(--sections-color);
   margin-bottom: 72px;
+}
+.section-three-list {
+  display: flex;
+  padding: 0;
+  gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 /* Section-4 */
@@ -206,6 +220,7 @@ img {
 }
 .company-employees {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .employees {
   font-weight: 500;
@@ -213,6 +228,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--sections-color);
+}
+.employees-list {
+  padding: 32px 16px;
 }
 /* Button */
 
@@ -229,6 +247,8 @@ button {
   background-color: #4d5ae5;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  height: 56px;
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
@@ -244,7 +264,7 @@ button {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
 }
 .text-item {
   font-size: 16px;
@@ -258,6 +278,7 @@ button {
 }
 .footer-paragraph {
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* Portfolio */
